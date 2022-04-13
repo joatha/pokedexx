@@ -54,14 +54,14 @@ export default {
    }
  },
  computed:{
-   /*
+   
    resultadoBusca: function(){
      if(this.busca == '' || this.busca ==' '){
        return this.pokemons
      }else{
        return this.pokemons.filter(pokemons => pokemons.name == this.busca)
      }
-   }*/
+   }
  }
 }
 
