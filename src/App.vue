@@ -44,7 +44,7 @@ export default {
    Pokemon
  },
  methods:{
-   buscar: function(){
+   buscar(){
      this.filterPokemons = this.pokemons
      if(this.busca == '' || this.busca ==' '){
         this.filterPokemons == this.pokemons
