@@ -46,8 +46,8 @@ export default {
  methods:{
    buscar(){
      this.filterPokemons = this.pokemons
-     if(this.busca == '' || this.busca ==' '){
-        this.filterPokemons == this.pokemons
+     if(this.busca === '' || this.busca ===' '){
+        this.filterPokemons === this.pokemons
      }else{
        this.filterPokemons = this.pokemons.filter(pokemons => pokemons.name == this.busca)
      }
