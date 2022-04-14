@@ -6,9 +6,7 @@
             <img src="../public/img/01.png" id="img_poke">
             <img  src="../public/img/02.png" id="img_poke">
 
-            <hr>
-      <input class="input is-success" type="text" placeholder="Buscar Pokemon" v-model="busca">
-      <button class="button is-medium is-fullwidth is-success" id="buscaBtn" @click="buscar">Buscar</button>
+            <hr>     
 
       <div v-for="(poke, index) in filterPokemons" :key="poke.url" >
         <Pokemon :name="poke.name" :url="poke.url" :num="index +1"/>
